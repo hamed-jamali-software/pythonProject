@@ -27,9 +27,8 @@ def prefix(list):
 def inputer():
     # Method by hamed
     print("how can you calcul prefix fast ??")
-    print("ok please enter size list")
     list = []
-    n = input("Enter the list size:")
+    n = int(input("Enter the list size:"))
 
     print("\n")
     for i in range(0, n):
