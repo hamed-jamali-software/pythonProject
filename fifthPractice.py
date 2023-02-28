@@ -13,13 +13,14 @@ def inputer():
     return list
 
 
-def findNumber(list):
+def findNumber(list,number):
     for i, x in enumerate(list):
-        if x == 2:
+        if x == number:
             print("number is index :", i)
 
 
 if __name__ == "__main__":
+    number = int(input("Enter the number you want to find: "))
     int_list = inputer()
-    findNumber(int_list)
+    findNumber(int_list,number)
 
